@@ -2,17 +2,9 @@
 
 ### Overview
 
-- 
-
 ---
 
 ### Structure
-
-`backend/`:
-- 
-
-`frontend/`:
-- 
 
 ---
 
@@ -23,8 +15,6 @@
 ---
 
 ### First Time Setup
-
-1. 
 
 ---
 
