@@ -11,6 +11,12 @@
 #### Frontend
 
 - React + Expo application built with `npx create-expo-app@latest frontend`
+- Uses Expo Router for tab navigation (`Home` and `About` tabs)
+- Custom Button component in `components/Button.tsx`
+- Custom ImageViewer component in `components/ImageViewer.tsx`
+- Image selection from device library using Expo Image Picker
+- Camera integration setup (requires `expo-camera` package, see below)
+- Button A on the Home tab is configured to trigger image picking (and can be updated to open the camera)
 
 ---
 
@@ -28,5 +34,3 @@
 cd frontend
 npx expo start
 ```
-
----
