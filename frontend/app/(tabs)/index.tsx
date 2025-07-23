@@ -9,6 +9,7 @@ export default function Index() {
     <View style={styles.container}>
       <View style={styles.footerContainer}>
         <Button theme="primary" label="Button A" />
+        <Button label="Button B" />
       </View>
     </View>
   );
