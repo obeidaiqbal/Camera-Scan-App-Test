@@ -33,6 +33,9 @@ export default function Index() {
       <View style={styles.footerContainer}>
         <Button theme="primary" label="Button A" onPress={pickImageAsync} />
         <Button label="Button B" onPress={() => alert('You pressed a button.')} />
+        <Link href="/about" style={styles.button}>
+          Go to About screen
+        </Link>
       </View>
     </View>
   );
